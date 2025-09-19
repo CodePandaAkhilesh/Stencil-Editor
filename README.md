@@ -18,6 +18,8 @@ It allows users to **upload images**, place them into a **stencil frame**, and a
 📸 Screenshots
 
 <img width="1920" height="917" alt="{483EE708-1DC5-433A-901D-2A7F479C929D}" src="https://github.com/user-attachments/assets/ea25c984-086b-44cb-bdfc-36d9ed644096" />
+<img width="1908" height="924" alt="{9D23ADBD-6CE4-4802-A607-A87833793836}" src="https://github.com/user-attachments/assets/f624538b-cfb1-4a9f-86db-5bd8e43014b3" />
+
 
 
 ---
