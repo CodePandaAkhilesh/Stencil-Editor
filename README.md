@@ -1,49 +1,89 @@
-# Stencil Editor (React + Fabric.js + Redux + Tailwind)
-1. A Canvas-based Stencil Editor built with React, Vite, Redux, and Fabric.js.
-2. It allows users to:
+# 🖌️ Stencil Editor (React + Fabric.js + Redux + Tailwind)
 
-   - Upload an image.
+A **Canvas-based Stencil Editor** inspired by Canva, built with **React, Vite, Redux, Tailwind CSS, and Fabric.js**.  
+It allows users to **upload images**, place them into a **stencil frame**, and adjust them with **drag, zoom, and reset controls**.
 
-   - Drag & drop it into a predefined stencil (photo frame).
+---
 
-   - Move, zoom, and reset the image inside the stencil.
+## ✨ Features
+- 📤 Upload images via the **Uploads Panel**.
+- 🖼️ Drag & drop uploaded image into a **photo frame stencil**.
+- 🔍 Zoom In/Out inside the stencil.
+- 🎯 Move & Reposition images freely.
+- ♻️ Reset to restore image position.
+- ⚡ Built with **React + Redux + Fabric.js** for smooth performance.
 
-🚀 Getting Started
+---
 
-1. Clone the repository
-   git clone https://github.com/CodePandaAkhilesh/Stencil-Editor.git
-   cd Stencil-Editor
+## 🛠️ Tech Stack
+| Layer | Technology |
+|-------|------------|
+| Fast frontend development | React + Vite |
+| Canvas manipulation | Fabric.js |
+| State management | Redux Toolkit |
+| Tailwind CSS | Styling |
 
-2. Install dependencies
-   npm install
-   npm install fabric @reduxjs/toolkit react-redux
-   npm install -D tailwindcss postcss autoprefixer
-   npx tailwindcss init -p
+---
 
-3. Run the development server
-   npm run dev
+## 🎥 Demo Video
 
-4. Upload an image via the left Uploads panel. Use Zoom +/– to zoom inside the stencil, drag image to reposition, use Reset to restore.
+Watch the demo video here:
+▶️ Click to watch Demo
+
+---
+
+## 📂 Project Structure
+```
+.
+Stencil-Editor/
+├── public/              # Static assets
+├── src/
+│   ├── components/
+│   │   ├── CanvasEditor.jsx   # Fabric.js canvas + stencil logic
+│   │   ├── LeftPanel.jsx      # Handles uploads & thumbnails
+│   │   ├── Toolbar.jsx        # Zoom, Reset, Undo controls
+│   ├── store/
+│   │   ├── editorSlice.js     # Redux slice for editor state
+│   │   └── store.js           # Redux store setup
+│   ├── App.jsx                # Main layout
+│   ├── main.jsx               # React entrypoint
+│   ├── index.css              # Global styles (Tailwind included)
+├── index.html
+├── vite.config.js
+├── tailwind.config.js
+├── postcss.config.js
+├── package.json
+└── README.md
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+```bash
+# 1️⃣ Clone Repository
+git clone https://github.com/CodePandaAkhilesh/Stencil-Editor.git
+cd Stencil-Editor
+
+# 2️⃣ Install Dependencies
+npm install
+npm install fabric @reduxjs/toolkit react-redux
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+
+# 4️⃣ Run App in Development Mode
+npm run dev
+```
+
+---
 
 
-📂 Project Structure
+## 📞 Contact
 
-   Stencil-Editor/
-   ├── public/              # Static assets
-   ├── src/
-   │   ├── components/
-   │   │   ├── CanvasEditor.jsx   # Fabric.js canvas + stencil logic
-   │   │   ├── LeftPanel.jsx      # Handles uploads & thumbnails
-   │   │   ├── Toolbar.jsx        # Zoom, Reset, Undo controls
-   │   ├── store/
-   │   │   ├── editorSlice.js     # Redux slice for editor state
-   │   │   └── store.js           # Redux store setup
-   │   ├── App.jsx                # Main layout
-   │   ├── main.jsx               # React entrypoint
-   │   ├── index.css              # Global styles (Tailwind included)
-   ├── index.html
-   ├── vite.config.js
-   ├── tailwind.config.js
-   ├── postcss.config.js
-   ├── package.json
-   └── README.md
+- Akhilesh Verma – 📧 av14021999@gmail.com    
+
+---
+
+## 📜 License
+
+- MIT License
