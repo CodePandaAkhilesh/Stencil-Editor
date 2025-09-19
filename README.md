@@ -15,6 +15,13 @@ It allows users to **upload images**, place them into a **stencil frame**, and a
 
 ---
 
+📸 Screenshots
+
+<img width="1920" height="917" alt="{483EE708-1DC5-433A-901D-2A7F479C929D}" src="https://github.com/user-attachments/assets/ea25c984-086b-44cb-bdfc-36d9ed644096" />
+
+
+---
+
 ## 🛠️ Tech Stack
 | Layer | Technology |
 |-------|------------|
